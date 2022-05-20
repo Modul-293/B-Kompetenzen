@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset='utf-8'>
+    <title>Page Title</title>
+</head>
+
+<body>
+    <h2>Anmelde Website</h2>
+    <!--https://scripts.fusiva.ch/m293/formular.php-->
+    <form action="https://scripts.fusiva.ch/m293/formular.php" method="post">
+        <label>Gender*</label><br>
+        <input type="radio" value="Weiblich" id="input_gender" name="input_gender" required></input>
+        <label for="input_weiblich">Weiblich</label>
+        <input type="radio" value="Männlich" id="input_gender" name="input_gender" required></input>
+        <label for="input_männlich">Männlich</label>
+        <input type="radio" id="input_gender" name="input_gender" value="Divers" required></input>
+        <label for="input_männlich">Divers</label>
+
+        </br>
+        </br>
+        <label for="input_name">Name*</label> </br>
+        <input type="text" id="input_name" name="input_name" required></input>
+
+        </br>
+        </br>
+        <label for="input_first_name">First Name*</label></br>
+        <input type="text" id="input_name" name="input_first_name" required></input>
+
+        </br>
+        </br>
+        <label for="input_age">Your Birthday*</label> </br>
+        <input type="date" id="input_age" name="input_age"></input>
+
+        </br>
+        </br>
+        <label for="input_email">Email Adress*</label> </br>
+        <input type="email" id="input_email" name="input_email" required></input>
+
+
+        </br>
+        </br>
+        <label for="input_password">Password*</label> </br>
+        <input type="password" id="input_password" name="input_password" required minlength="8"></input>
+
+
+        </br>
+        </br>
+        <button type="reset">Reset Input</button>
+        <button type="submit">Submit input</button>
+
+
+    </form>
+</body>
+
+</html>
